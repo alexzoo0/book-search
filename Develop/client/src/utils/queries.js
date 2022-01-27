@@ -1,6 +1,6 @@
 import gql  from "graphql";
 
-export const GET_ME = gql `
+export const GET_ME = gql`
 {
     me{
         _id
@@ -18,4 +18,5 @@ export const GET_ME = gql `
 
         }
     }
-} `;
+} 
+`;
